@@ -1,35 +1,31 @@
 # TabuSearch
-Implementation of Tabu search for 'Optimization using metaheuristics'
+*Implementation of Tabu search for 'Optimization using metaheuristics'*
 
-This folder contains:
+## This repository contains:
 
-Six pure Tabu variations
-	a. ‘AxOb’ 
-	b. ‘Baseline’
-	c. ‘BigN’
-	d. ‘fullT’
-	e. ‘moveIndividual’ (moveEachT in report)
-	f. ‘movePair’ 
+**Six pure Tabu variations:**
+* ‘TABU_AxOb’ 
+* ‘TABU_Baseline’
+* ‘TABU_BigN’
+* ‘TABU_fullT’
+* ‘TABU_moveIndividual’ (moveEachT in report)
+* ‘TABU_movePair’ 
 
-One extended variation
-	a. ‘Extended’
+**One extended variation**
+* ‘TABU_Extended’
 
-One comparison folder, ‘Compare’, containing a Jupyter notebook used for data-analysis.
+**One comparison folder, ‘Compare’, containing a Jupyter notebook used for data-analysis.**
 
-Each folder works as a separate program and contains: 
-	a. ‘Data’ 
-		Folder of all 40 data files
-	b. ‘functions’ 
-		a. ‘initialisation’  - functions run only once for each file
-		b. ‘construction’ - functions for construction heuristic
-		c. ‘helper’ - general functions used throughout the program
-		d. ’TABU’ - main tabu files, operators and neighbourhood functions. 
-	c. ‘output’ - folder holding function results as .csv files
-		a. ‘dataframe.csv’ - with detailed results from run done on each file
-		b. ‘iterationAnalysis.csv’ - iteration analysis results
-	d. ‘main.jl’
-		Executable function running Tabu on all 40 files. 
-	e. ‘parameterTuning.jl’
-		Executable function tuning parameters for Tabu for 7200 seconds. 
-	f. ‘readme.txt’
-		Explanation of the Tabu and how it differs from Baseline. 
+### Each folder works as a separate program and contains: 
+* **‘Data’** - Folder of all 40 data files
+* **‘functions’** 
+  * *‘initialisation’*  - functions run only once for each file
+  * *‘construction’* - functions for construction heuristic
+  * *‘helper’* - general functions used throughout the program
+  * *’TABU’* - main tabu files, operators and neighbourhood functions. 
+* **‘output’** - folder holding function results as .csv files
+  * *‘dataframe.csv’* - with detailed results from run done on each file
+  * *‘iterationAnalysis.csv’* - iteration analysis results
+* **‘main.jl’** - Executable function running Tabu on all 40 files. 
+* **‘parameterTuning.jl’** - Executable function tuning parameters for Tabu for 7200 seconds. 
+* **‘readme.txt’** - Explanation of the Tabu and how it differs from Baseline. 
