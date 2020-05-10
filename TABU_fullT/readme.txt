@@ -9,6 +9,5 @@ fullT TABU
 	distance x vehicles
 ## Parameters after tuning:
 	Tabu list length -> k = 75
-	# 1 iteration = Instances * runtime * samplesize = 4 x 3 x 30 = 360 seconds (6 min) x 20 iterations = 7200 seconds (2 hours)
 
 #*# - Indicates change from "Baseline"
